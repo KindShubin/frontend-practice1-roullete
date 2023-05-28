@@ -1,0 +1,11 @@
+.dealer {
+  font-size: 26px;
+  color: #dbdbdb;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: fit-content;
+  padding: 5px 20px;
+}
+
+/*# sourceMappingURL=Dealer.module.css.map */

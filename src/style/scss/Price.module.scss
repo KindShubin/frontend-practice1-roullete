@@ -1,0 +1,15 @@
+@import "variables";
+
+.price{
+  position: absolute;
+  color: $priceColor;
+  top: 5px;
+  left: 5px;
+  font-size: calc($textSize * 1.5);
+  display: flex;
+  align-items: center;
+
+  img{
+    height: 25px;
+  }
+}

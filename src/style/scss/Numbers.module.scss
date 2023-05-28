@@ -1,0 +1,33 @@
+@import "variables";
+
+.numbers{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40%;
+  bottom: 0;
+  background: rgba($color: #000000, $alpha: 0.35);
+}
+
+.num{
+  font-size: $textSize;
+  margin: 3px;
+  width: 40px;
+  height: 40px;
+  // padding-right: 3px;
+  // padding-bottom: 3px;
+
+  &_red{
+    color: #d30000;
+  }
+  &_black{
+    color: $textColorGrey;
+  }
+  &_green{
+    color: #00ad00;
+  }
+  &_active{
+    border: 2px solid $textColorGrey;
+  }
+}

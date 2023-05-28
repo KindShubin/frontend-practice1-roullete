@@ -1,0 +1,11 @@
+@import 'variables';
+
+.dealer{
+  font-size: $textSize;
+  color: $textColorGrey;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: fit-content;
+  padding: 5px 20px;
+}

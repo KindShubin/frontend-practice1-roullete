@@ -1,0 +1,45 @@
+@import 'variables';
+
+.tableInfoPanel{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba($color: #000000, $alpha: 0.5);
+}
+
+.new{
+  position: absolute;
+  text-transform: uppercase;
+  margin: auto;
+  padding-bottom: 2px;
+  width: 180px;
+  height: 35px;
+  background: $newColor;
+  color: #000;
+  border-radius: 20px;
+  transform: translate(-15px, -50%);
+  font-size: $textSize;
+  font-weight: 600;
+}
+
+.name{
+  position: absolute;
+  bottom: 8px;
+  left: 5px;
+  font-size: $textSize;
+  color: $textColorGrey;
+}
+
+.players{
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
+  font-size: $textSize;
+  color: $textColorGrey;
+  
+  img{
+    height: 35px;
+    transform: translateY(7px);
+  }
+}
